@@ -1,0 +1,101 @@
+body {
+  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-10.jpg");
+  background-size: cover;
+  background-repeat: none;
+  opacity: 50%;
+}
+
+#fccLogo {
+  width: 20%;
+  position: absolute;
+}
+
+.main {
+  margin-left: 37.5%;
+}
+
+.twitchLogo {
+  width: 15%;
+  margin-left: 40%;
+}
+
+#header {
+  margin-top: 2%;
+  margin-left: 2%;
+}
+
+input {
+  width: 30%;
+  margin-left: 1.5%;
+  margin-top: 1%;
+  background-color: grey;
+  color: white;
+  border-color: grey;
+  border-radius: 5%;
+}
+
+#buttons {
+  margin-top: 1%;
+  margin-left: ;
+}
+
+button {
+  width: 11%;
+  background-color: #6441a4;
+  border-color: grey;
+  border-radius: 10%;
+  color: white;
+}
+
+#info {
+  margin-left: 25%;
+  margin-top: 1%;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+}
+
+.container {
+  width: 25%;
+  height: 30%;
+  position: relative;
+  float: left;
+  
+  display: block;
+}
+
+.container img {
+  width: 100%;
+  border-radius: 5px;
+  font-size: 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 14px;
+  right: 0;
+  height: 94.6%;
+  width: 85.6%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #6441a4;
+  border-radius: 5px;
+
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
